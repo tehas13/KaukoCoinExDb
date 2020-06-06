@@ -1,0 +1,2 @@
+# KaukoCoinExDb
+Dėstytojui
