@@ -7,7 +7,7 @@ include('../server.php');
 include('../button.php');
 include('../operations.php');
 
-$query = "SELECT year FROM btc GROUP BY year DESC";
+$query = "SELECT year FROM btcall GROUP BY year DESC";
 
 $statement = $connect->prepare($query);
 

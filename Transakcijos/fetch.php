@@ -7,7 +7,7 @@ include('database_connection.php');
 if(isset($_POST["year"]))
 {
     $query = "
- SELECT * FROM btc 
+ SELECT * FROM btcall 
  WHERE year = '".$_POST["year"]."' 
  ORDER BY id ASC
  ";
